@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="website.css" />
+    <title>Marketing</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html"
+        ><img src="images/kaitylogo.JPG " alt="Logo" class="logo"
+      /></a>
+      Kaity from CAB
+    </div>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="marketing.html">Marketing</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact Me!</a>
+      <a href="sitemap.html">Sitemap</a>
+    </div>
+    <div class="slideshow">
+      <img
+        class="mySlides"
+        src="images/OffsetCountdown3Days.png"
+        alt="Offset Countdown"
+      />
+      <img
+        class="mySlides"
+        src="images/OffsetCountdown2days.png"
+        alt="Offset Countdown"
+      />
+      <img
+        class="mySlides"
+        src="images/OffsetCountdowntoday.png"
+        alt="Offset Countdown"
+      />
+      <img
+        class="mySlides"
+        src="images/HauntedEscapefrontswipe.jpg"
+        alt="Haunted Escape Room Poster"
+      />
+      <img
+        class="mySlides"
+        src="images/PosterResized-01.png"
+        alt="Spring concert Poster"
+      />
+      <img
+        class="mySlides"
+        src="images/Screen Shot 2019-03-04 at 2.54.11 PM.png"
+        alt="Spring Week Logo"
+      />
+
+      <div>
+        <button onclick="plusDivs(-1)" class="slideButton">&#10094;</button>
+        <button onclick="plusDivs(+1)" class="slideButton">&#10095;</button>
+      </div>
+      <div>
+        <img src="images/cornhole.JPG" alt="Kaity and Giveaways" class="index-photo" />
+        <p>
+          I've enjoyed purchasing giveaway that I know the Babson community will
+          enjoy!
+        </p>
+        <p>Some of the things that I have had a hand in designing are:</p>
+        <ul>
+          CAB Branded iSlides
+        </ul>
+        <ul>
+          Umbrellas
+        </ul>
+        <ul>
+          Stationary Kits, Tech Packs, and selfie Lights (our webex University
+          starter pack)
+        </ul>
+        <ul>
+          Blue Blocking Glasses
+        </ul>
+        <ul>
+          Pocket t shirts
+        </ul>
+        <ul>
+          Multi-tool screwdriver/level/flashlight
+        </ul>
+        <ul>
+          Touchless tool keychains
+        </ul>
+        <ul>
+          Waterbottles, Tumblers, and more!
+        </ul>
+      </div>
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs((slideIndex += n));
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {
+            slideIndex = 1;
+          }
+          if (n < 1) {
+            slideIndex = x.length;
+          }
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          x[slideIndex - 1].style.display = "block";
+        }
+      </script>
+    </div>
+  </body>
+</html>

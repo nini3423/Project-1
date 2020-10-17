@@ -1,0 +1,70 @@
+
+.logo {
+  width: 80px;
+}
+.header {
+  font-size: 40px;
+  vertical-align: auto;
+}
+.topnav {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  text-decoration: none;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.contact {
+  width: 50%;
+}
+
+table {
+  padding: 20px;
+}
+.socials {
+  width: 50px;
+}
+.contact-socials {
+  margin: 50px;
+}
+
+.index-photo {
+    position: sticky;
+    width: 100%;
+    opacity: 70%;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+.overlay-table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-25%);
+}
+.mySlides {
+    height: 200px;
+}
+.slideButton {
+    position: center;
+}
+.slideshow {
+    margin-right: auto;
+    margin-left: auto;
+}
