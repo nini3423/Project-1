@@ -43,7 +43,7 @@ table {
 
 .index-photo {
     position: sticky;
-    width: 100%;
+    width: 80%;
     opacity: 70%;
     overflow: hidden;
 }
